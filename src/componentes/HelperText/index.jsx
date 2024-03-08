@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 const HelperText = styled.p`
-
-    color: ${ props => props.$type === 'error' ? 'red' : 'green' }
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: bold;
+    color: ${ props => props.$type === 'error' ? '#FF0000' : 'green' }
     
 `
 
-
 export default HelperText
+
